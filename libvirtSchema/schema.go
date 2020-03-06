@@ -16,6 +16,7 @@ package libvirtSchema
 type Domain struct {
 	Devices Devices `xml:"devices"`
 	Metadata Metadata `xml:"metadata"`
+	Title string `xml:"title"`
 }
 
 type Metadata struct {
@@ -56,6 +57,10 @@ type Root struct {
 type Devices struct {
 	Disks      []Disk      `xml:"disk"`
 	Interfaces []Interface `xml:"interface"`
+}
+
+type Title struct {
+	Title	string	`xml:"title"`
 }
 
 type Disk struct {
