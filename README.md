@@ -6,6 +6,8 @@ Implemented statistics collection using GetAllDomainStats
 And then forked again from https://github.com/rumanzo/libvirt_exporter_improved and rewritten.
 Implemented meta metrics and more info about disks, interfaces and domain.
 
+And forked again from https://github.com/AlexZzz/libvirt-exporter
+
 This repository provides code for a Prometheus metrics exporter
 for [libvirt](https://libvirt.org/). This exporter connects to any
 libvirt daemon and exports per-domain metrics related to CPU, memory,
